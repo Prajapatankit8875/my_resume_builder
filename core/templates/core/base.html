@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="{% static 'core/css/all.min.css' %}}">
+    <link rel="stylesheet" href="{% static 'core/css/bootstrap.css' %}}">
+    {% block corecss %}
+    <link rel="stylesheet" href="{% static 'core/css/core.css' %}}">
+    {% endblock corecss %}
+</head>
+<body>
+ <div class="container-fluid bg-dark">
+    <div class="row">
+      <div class="col-sm-2">
+        <div class="border-right border-warning h-100">
+            <div class="text-center">
+                <img src="{% static 'core/images/1693313052739.jpg' %}}"
+                alt="profilepic" class="img-fluid rounded-circle mt-5" width="100px" height="100px">
+                <h3 class="text-white mt-3"> Ankit kumar</h3>
+            </div>
+            <hr class="border-light">
+            <nav class="nav flex-column text-center">
+                <a href=""class="nav-link">home</a>
+                <a href=""class="nav-link">services</a>
+                <a href=""class="nav-link">skill</a>
+                <a href=""class="nav-link">contact</a>
+            </nav>
+        </div>
+      </div>
+      <div class="col-sm-10">
+      
+      </div>      
+    </div>   
+ 
+<script src="{% static 'core/js/jquery.js' %}}"></script>
+<script src="{% static 'core/js/popper.js' %}}"></script>  
+<script src="{% static 'core/js/all.min.js' %}}"></script>
+<script src="{% static 'core/js/bootstrap.js' %}}"></script>      
+</body>
+</html>    
