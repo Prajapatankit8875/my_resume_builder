@@ -1,0 +1,12 @@
+.st-font{
+    font-family: "satisfy"
+}
+
+html, 
+body{
+    height: 100px;
+}
+
+.container-fluid{
+    min-height: 100%;
+}
